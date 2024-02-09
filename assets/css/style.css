@@ -221,7 +221,11 @@ p {
 
 .list ul li {
     list-style: disc;
-    line-height: 3.7rem;
+    line-height: 3.6rem;
+}
+
+.list a {
+    color: var(--light-blue-color);
 }
 
 footer {
