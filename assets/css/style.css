@@ -44,12 +44,12 @@ header {
     left: 0;
     z-index: 1;
     transform: 1s;
+    transition: all 300ms ease-in-out;
 }
 
 header.scrolling {
     background-color: var(--menu-bg-color);
     box-shadow: 0px 3px 1px -2px rgba(0,0,0,.2), 0px 2px 2px 0px rgba(0,0,0,.14), 0px 1px 5px 0px rgba(0,0,0,.12);
-    transition: all 300ms ease-in-out;
 }
 
 h1 {
@@ -87,9 +87,17 @@ p {
     margin: 0 auto;
 }
 
-/* .menu-spacing {
-    height: 6.2rem;
-} */
+.main-background {
+    background: url('../img/main-bg.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+.white-background {
+    background: var(--white-color);
+}
 
 .menu {
     display: flex;
@@ -127,10 +135,7 @@ p {
 }
 
 .splash {
-    background: var(--main-bg-img);
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
+    background: none;
     color: var(--white-color);
     min-height: 100vh;
     display: flex;
@@ -251,10 +256,7 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: var(--main-bg-img);
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
+    background: none;
 }   
 
 .section-title h2 {
