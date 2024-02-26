@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+:root {
+    /* --title-font: 'Poppins', sans-serif;
+    --content-font: 'Roboto', sans-serif; */
+    --text-color: rgba(0, 0, 0, 0.8);
+
+    --black-color: #000;
+    --white-color: #fff;
+    --light-gray-color: #eeeeee;
+    --light-blue-color: #00acff;
+
+    --menu-bg-color: #1B1B1B;
+    --main-bg-color: #1F1F1F;
+    --main-bg-img: url('../img/main-bg.svg');
+    --footer-bg-color: #1B1B1B;
+
+    --title-font: 'Nunito', sans-serif;
+    --content-font: 'Roboto', sans-serif;
+}

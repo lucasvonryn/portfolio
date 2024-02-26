@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+#impossible-list.top-text-content h1 {
+    padding-top: 4rem;
+}
+
+#impossible-list.top-text-content h2 {
+    margin-top: 0.5rem;
+}
+
+.list-description, .list {
+    font-size: 1.6rem;
+}
+
+.list h2 {
+    font-size: 2.8rem;
+    margin-top: 1.5rem;
+    margin-bottom: 0.8rem;
+}
+
+.list ul {
+    padding-inline-start: 4rem;
+}
+
+.list ul li {
+    list-style: disc;
+    line-height: 3.6rem;
+}
+
+.list ul ul li {
+    line-height: 2.6rem;
+}
+
+.list a {
+    color: var(--light-blue-color);
+}
