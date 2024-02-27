@@ -221,4 +221,22 @@ footer .copyright p {
         padding: 1.5rem 0rem;
         padding-right: 2rem;
     }
+
+    .top-text-content h1 {
+        font-size: 5rem;
+    }
+
+    .top-text-content h2 {
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .top-text-content h1 {
+        font-size: 4.5rem;
+    }
+
+    .top-text-content h2 {
+        font-size: 2rem;
+    }
 }
