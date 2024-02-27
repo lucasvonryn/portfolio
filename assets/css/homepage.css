@@ -56,10 +56,6 @@
     color: var(--light-blue-color);
 }
 
-.project-img {
-    width: 60rem;
-}
-
 .project-img img {
     width: 60rem;
     border-radius: 1rem;
