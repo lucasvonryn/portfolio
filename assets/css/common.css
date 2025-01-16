@@ -119,7 +119,6 @@ footer .copyright p {
 }
 
 .main-background {
-    background: url('../img/main-bg.svg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -240,3 +239,14 @@ footer .copyright p {
         font-size: 2rem;
     }
 }
+
+#particles-js {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1; /* Para ficar atrás do conteúdo */
+    background-color: #1B1B1B; /* Fundo escuro */
+}
+  
